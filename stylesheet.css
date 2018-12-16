@@ -1,3 +1,9 @@
 .image {
+  width: 700px;
+  margin-left: 20%;
+}
+
+.backgroundType {
   background-image: url("./clavierOrdinateur_2.jpg");
+  background-size: 100%;
 }
