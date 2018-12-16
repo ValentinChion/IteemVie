@@ -1,115 +1,118 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131081144-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131081144-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-131081144-1');
-  </script>
-    <title>Le travail de groupe: définition</title>
-    <meta name="description" content="Un travail de groupe réussit est la clef du succès en entreprise.">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="google-site-verification" content="ktDqJpT1KiNX-Gvqztcpn7I6Da7-bEeLaWL7Xcn1P6U" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="icon" href="kakashion.png" />
-</head>
-<body>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="./jquery.js" type="text/javascript"></script>
-  <script type="text/javascript">
-      var faireBug = window.setInterval(myCallback, 1);
-      var counterSec = 0;
-        function myCallback() {
-          counterSec += 1;
-          if (counterSec % 10 === 0) {
-            document.getElementById("seconds").textContent = (counterSec/100);
+      gtag('config', 'UA-131081144-1');
+    </script>
+      <title>Le travail de groupe: définition</title>
+      <meta name="description" content="Un travail de groupe réussit est la clef du succès en entreprise.">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="google-site-verification" content="ktDqJpT1KiNX-Gvqztcpn7I6Da7-bEeLaWL7Xcn1P6U" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="stylesheet.css">
+      <link rel="icon" href="kakashion.png" />
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var faireBug = window.setInterval(myCallback, 1);
+        var counterSec = 0;
+          function myCallback() {
+            counterSec += 1;
+            if (counterSec % 10 === 0) {
+              document.getElementById("seconds").textContent = (counterSec/100);
+            }
           }
-        }
-  </script>
-  <div>
-    <div class="jumbotron backgroundType">
+    </script>
+    <div>
+      <div class="jumbotron backgroundType">
+        <div class="container">
+          <h1 class="display-4">Le travail en groupe: comment réussir ?</h1>
+          <p>
+            L'un des facteurs clef qui vous permettra de réussir en entreprise est le travail de groupe.
+            De nombreuses méthodes se sont développées ces dernières années.
+            Il est par ailleurs intéressant de noter que le travail de groupe permet aussi aux salariés d'une entreprise de s'épanouir socialement.
+            Le but de cet article est de présenter quelques méthodes de travail en groupe que j'ai pu <strong>expérimenter</strong>:
+          </p>
+          <p>
+            <button type="button" name="button" class="btn btn-lg btn-primary">Tu es ici depuis <span id="seconds"></span> secondes </button>
+          </p>
+        </div>
+      </div>
       <div class="container">
-        <h1 class="display-4">Le travail en groupe: comment réussir ?</h1>
-        <p>
-          L'un des facteurs clef qui vous permettra de réussir en entreprise est le travail de groupe.
-          De nombreuses méthodes se sont développées ces dernières années.
-          Il est par ailleurs intéressant de noter que le travail de groupe permet aussi aux salariés d'une entreprise de s'épanouir socialement.
-          Le but de cet article est de présenter quelques méthodes de travail en groupe que j'ai pu <strong>expérimenter</strong>:
-        </p>
-        <p>
-          <button type="button" name="button" class="btn btn-lg btn-primary">Tu es ici depuis <span id="seconds"></span> secondes </button>
-        </p>
+        <img class="image" src="./exempleDeTravailDeGroupe.jpg" alt="Travail de groupe">
+        <div class="row">
+          <h2>La méthode Agile:</h2>
+          <p>
+            Surement la plus connue, cette méthode de travail en groupe est aujourd'hui utilisé dans la majorité des projets.
+            Certaines définitions donne des méthodes de mise en application très précise, ici nous discuterons plutôt des grands principe de ce type de travail en équipe:
+          </p>
+          <div class="col-md-4">
+            <h3>Proposer des résultats le plus souvent possible</h3>
+            <p>
+              C'est surement le point le plus important. Il est absolument nécessaire de proposer des résultats régulièrement.
+              Dès qu'une première version de votre travail est disponible, n'hésitez pas à la présenter. On viendra ensuite ajouter des features sur cette première version
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Satisfaire le client</h3>
+            <p>
+              Cette orientation en terme de travail de groupe a pour but de satisfaire le client qu'il soit interne (votre patron), ou externe.
+              En effet, pouvoir manier au bout de quelques semaines une première version du produit finit lui permettra de réagir et de vous donner du feedback qui vous sera utile pour réussir au mieux votre projet.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Privilégier le face à face</h3>
+            <p>
+              Avec la démocratisation d'internet, il existe de plus en plus d'outils pour communiquer. Cependant, nous recevons d'immenses flots d'informations que nous filtrons énormément.
+              Il est alors habituel que de l'information, qui peut-être crucial à la réussite de votre travail de groupe, ne soit pas lue.
+              La méthode Agile privilégie donc la conversation en face à face.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <h2>La méthode Waterfall:</h2>
+          <p>
+            Le nom de cette méthode de groupe de travail ne vous dis surement rien, mais vous la connaissez forcément. C'est la manière la plus classique de travailler.
+            Cette méthode est de plus en plus critiquée mais elle reste très efficace dans certains cas.
+          </p>
+          <div class="col-md-5">
+            <h3>Planification initiale</h3>
+            <p>
+              C'est le point majeur de ce type de travail de groupe. Une longue phase de planification intervient dès le début du projet.
+              Lorsque le groupe est très important, cela prend tout son sens. Chaque membre connaît alors ses objectifs de réussite.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h3>Répartir le travail</h3>
+            <p>
+              Le Work Breakdown Structure (WBS) peut grandement aider lors de cette étape. L'objectif est simple: Qui fera quoi ?
+              On y définit ce que chaque équipe doit contribuer pour réussir le projet.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <h2>Que Choisir ?</h2>
+          <p>
+            Il est alors naturel de ce demander quelle méthode de groupe de travail choisir ? Tout dépend des besoins du projet.
+            Mettre en place la méthode Agile sur de gros groupe est très compliqué. Il conviendra plutôt d'utiliser la méthode Waterfall.
+            Cependant, pour chaque contribution, les sous-groupes de travail peuvent s'organiser de manière Agile.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <img class="image" src="./exempleDeTravailDeGroupe.jpg" alt="Travail de groupe">
-      <div class="row">
-        <h2>La méthode Agile:</h2>
-        <p>
-          Surement la plus connue, cette méthode de travail en groupe est aujourd'hui utilisé dans la majorité des projets.
-          Certaines définitions donne des méthodes de mise en application très précise, ici nous discuterons plutôt des grands principe de ce type de travail en équipe:
-        </p>
-        <div class="col-md-4">
-          <h3>Proposer des résultats le plus souvent possible</h3>
-          <p>
-            C'est surement le point le plus important. Il est absolument nécessaire de proposer des résultats régulièrement.
-            Dès qu'une première version de votre travail est disponible, n'hésitez pas à la présenter. On viendra ensuite ajouter des features sur cette première version
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h3>Satisfaire le client</h3>
-          <p>
-            Cette orientation en terme de travail de groupe a pour but de satisfaire le client qu'il soit interne (votre patron), ou externe.
-            En effet, pouvoir manier au bout de quelques semaines une première version du produit finit lui permettra de réagir et de vous donner du feedback qui vous sera utile pour réussir au mieux votre projet.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h3>Privilégier le face à face</h3>
-          <p>
-            Avec la démocratisation d'internet, il existe de plus en plus d'outils pour communiquer. Cependant, nous recevons d'immenses flots d'informations que nous filtrons énormément.
-            Il est alors habituel que de l'information, qui peut-être crucial à la réussite de votre travail de groupe, ne soit pas lue.
-            La méthode Agile privilégie donc la conversation en face à face.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <h2>La méthode Waterfall:</h2>
-        <p>
-          Le nom de cette méthode de groupe de travail ne vous dis surement rien, mais vous la connaissez forcément. C'est la manière la plus classique de travailler.
-          Cette méthode est de plus en plus critiquée mais elle reste très efficace dans certains cas.
-        </p>
-        <div class="col-md-5">
-          <h3>Planification initiale</h3>
-          <p>
-            C'est le point majeur de ce type de travail de groupe. Une longue phase de planification intervient dès le début du projet.
-            Lorsque le groupe est très important, cela prend tout son sens. Chaque membre connaît alors ses objectifs de réussite.
-          </p>
-        </div>
-        <div class="col-md-5">
-          <h3>Répartir le travail</h3>
-          <p>
-            Le Work Breakdown Structure (WBS) peut grandement aider lors de cette étape. L'objectif est simple: Qui fera quoi ?
-            On y définit ce que chaque équipe doit contribuer pour réussir le projet.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <h2>Que Choisir ?</h2>
-        <p>
-          Il est alors naturel de ce demander quelle méthode de groupe de travail choisir ? Tout dépend des besoins du projet.
-          Mettre en place la méthode Agile sur de gros groupe est très compliqué. Il conviendra plutôt d'utiliser la méthode Waterfall.
-          Cependant, pour chaque contribution, les sous-groupes de travail peuvent s'organiser de manière Agile.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div id="appendSlow">
+    <div id="appendSlow">
 
-  </div>
-  </body>
+    </div>
+    </body>
+</html>
